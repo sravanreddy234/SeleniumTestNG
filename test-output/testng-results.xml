@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21003" started-at="2020-03-17T09:32:20Z" finished-at="2020-03-17T09:32:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21003" started-at="2020-03-17T09:32:20Z" finished-at="2020-03-17T09:32:41Z">
+      <class name="org.seleniumtestng.SampleTestCases">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="launchBrowser" is-config="true" duration-ms="9631" started-at="2020-03-17T15:02:20Z" finished-at="2020-03-17T15:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="loginMethod" duration-ms="6964" started-at="2020-03-17T15:02:29Z" finished-at="2020-03-17T15:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="wrapUp()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="wrapUp" is-config="true" duration-ms="4387" started-at="2020-03-17T15:02:36Z" finished-at="2020-03-17T15:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+      </class> <!-- org.seleniumtestng.SampleTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
