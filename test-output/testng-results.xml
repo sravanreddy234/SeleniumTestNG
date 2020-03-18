@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21003" started-at="2020-03-17T09:32:20Z" finished-at="2020-03-17T09:32:41Z">
+  <suite name="Default suite" duration-ms="17304" started-at="2020-03-17T11:20:20Z" finished-at="2020-03-17T11:20:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21003" started-at="2020-03-17T09:32:20Z" finished-at="2020-03-17T09:32:41Z">
+    <test name="Default test" duration-ms="17304" started-at="2020-03-17T11:20:20Z" finished-at="2020-03-17T11:20:38Z">
       <class name="org.seleniumtestng.SampleTestCases">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="launchBrowser" is-config="true" duration-ms="9631" started-at="2020-03-17T15:02:20Z" finished-at="2020-03-17T15:02:29Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="launchBrowser" is-config="true" duration-ms="4293" started-at="2020-03-17T16:50:20Z" finished-at="2020-03-17T16:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginMethod()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="loginMethod" duration-ms="6964" started-at="2020-03-17T15:02:29Z" finished-at="2020-03-17T15:02:36Z">
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="loginMethod" duration-ms="8258" started-at="2020-03-17T16:50:25Z" finished-at="2020-03-17T16:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMethod -->
-        <test-method status="PASS" signature="wrapUp()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="wrapUp" is-config="true" duration-ms="4387" started-at="2020-03-17T15:02:36Z" finished-at="2020-03-17T15:02:41Z">
+        <test-method status="PASS" signature="fromCity()[pri:1, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="fromCity" duration-ms="108" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fromCity -->
+        <test-method status="PASS" signature="noOfPass()[pri:2, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="noOfPass" duration-ms="94" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noOfPass -->
+        <test-method status="PASS" signature="fromDayMonth()[pri:3, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="fromDayMonth" duration-ms="197" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fromDayMonth -->
+        <test-method status="PASS" signature="wrapUp()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="wrapUp" is-config="true" duration-ms="4321" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
