@@ -3,13 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.seleniumtestng.SampleTestCases">
+      <class name="org.seleniumtestng.GroupsExample">
         <methods>
-          <include name="wrapUp"/>
-          <include name="launchBrowser"/>
-          <include name="fromDayMonth"/>
+          <include name="tc06closeExecution"/>
         </methods>
-      </class> <!-- org.seleniumtestng.SampleTestCases -->
+      </class> <!-- org.seleniumtestng.GroupsExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17304" started-at="2020-03-17T11:20:20Z" finished-at="2020-03-17T11:20:38Z">
+  <suite name="Default suite" duration-ms="15863" started-at="2020-03-19T09:29:10Z" finished-at="2020-03-19T09:29:26Z">
     <groups>
+      <group name="one">
+        <method signature="GroupsExample.tc01LaunchURL()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc01LaunchURL" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc02VerifyLaunchPage()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc02VerifyLaunchPage" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc03EnterCredentials()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc03EnterCredentials" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc04VerifyHyperlinks()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc04VerifyHyperlinks" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc06closeExecution()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc06closeExecution" class="org.seleniumtestng.GroupsExample"/>
+      </group> <!-- one -->
+      <group name="two">
+        <method signature="GroupsExample.tc01LaunchURL()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc01LaunchURL" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc03EnterCredentials()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc03EnterCredentials" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc04VerifyHyperlinks()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc04VerifyHyperlinks" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc05AcceptPopup()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc05AcceptPopup" class="org.seleniumtestng.GroupsExample"/>
+        <method signature="GroupsExample.tc06closeExecution()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc06closeExecution" class="org.seleniumtestng.GroupsExample"/>
+      </group> <!-- two -->
     </groups>
-    <test name="Default test" duration-ms="17304" started-at="2020-03-17T11:20:20Z" finished-at="2020-03-17T11:20:38Z">
-      <class name="org.seleniumtestng.SampleTestCases">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="launchBrowser" is-config="true" duration-ms="4293" started-at="2020-03-17T16:50:20Z" finished-at="2020-03-17T16:50:25Z">
+    <test name="Default test" duration-ms="15863" started-at="2020-03-19T09:29:10Z" finished-at="2020-03-19T09:29:26Z">
+      <class name="org.seleniumtestng.GroupsExample">
+        <test-method status="PASS" signature="tc01LaunchURL()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc01LaunchURL" duration-ms="10884" started-at="2020-03-19T14:59:11Z" finished-at="2020-03-19T14:59:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginMethod()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="loginMethod" duration-ms="8258" started-at="2020-03-17T16:50:25Z" finished-at="2020-03-17T16:50:33Z">
+        </test-method> <!-- tc01LaunchURL -->
+        <test-method status="PASS" signature="tc02VerifyLaunchPage()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc02VerifyLaunchPage" duration-ms="66" started-at="2020-03-19T14:59:21Z" finished-at="2020-03-19T14:59:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMethod -->
-        <test-method status="PASS" signature="fromCity()[pri:1, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="fromCity" duration-ms="108" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+        </test-method> <!-- tc02VerifyLaunchPage -->
+        <test-method status="PASS" signature="tc03EnterCredentials()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc03EnterCredentials" duration-ms="2415" started-at="2020-03-19T14:59:21Z" finished-at="2020-03-19T14:59:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fromCity -->
-        <test-method status="PASS" signature="noOfPass()[pri:2, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="noOfPass" duration-ms="94" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+        </test-method> <!-- tc03EnterCredentials -->
+        <test-method status="PASS" signature="tc04VerifyHyperlinks()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc04VerifyHyperlinks" duration-ms="1642" started-at="2020-03-19T14:59:24Z" finished-at="2020-03-19T14:59:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noOfPass -->
-        <test-method status="PASS" signature="fromDayMonth()[pri:3, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="fromDayMonth" duration-ms="197" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:33Z">
+        </test-method> <!-- tc04VerifyHyperlinks -->
+        <test-method status="PASS" signature="tc05AcceptPopup()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc05AcceptPopup" duration-ms="24" started-at="2020-03-19T14:59:26Z" finished-at="2020-03-19T14:59:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fromDayMonth -->
-        <test-method status="PASS" signature="wrapUp()[pri:0, instance:org.seleniumtestng.SampleTestCases@18be83e4]" name="wrapUp" is-config="true" duration-ms="4321" started-at="2020-03-17T16:50:33Z" finished-at="2020-03-17T16:50:38Z">
+        </test-method> <!-- tc05AcceptPopup -->
+        <test-method status="PASS" signature="tc06closeExecution()[pri:0, instance:org.seleniumtestng.GroupsExample@1b604f19]" name="tc06closeExecution" duration-ms="773" started-at="2020-03-19T14:59:26Z" finished-at="2020-03-19T14:59:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wrapUp -->
-      </class> <!-- org.seleniumtestng.SampleTestCases -->
+        </test-method> <!-- tc06closeExecution -->
+      </class> <!-- org.seleniumtestng.GroupsExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
