@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suiteparallel" thread-count = "1" verbose = "10" parallel = "tests">
+
+<test name = "Flipkart">
+<classes>
+<class name = "org.firstsuite.FlipkartClass"></class>
+</classes>
+</test>
+
+<test name = "Guru99">
+<classes>
+<class name = "org.guru99suite.Guru99Class"></class>
+</classes>
+</test>
+
+</suite>
